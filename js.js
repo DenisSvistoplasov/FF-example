@@ -6,11 +6,9 @@ const fastFilters = [
     criteria: [true, true, false, false],
     isDefault: true
   },
-  {
-    id: 2,
-    name: 'Fast filter 2',
-    criteria: [false, false, true, false],
-  }
+  {"id":2,"name":"Fast filter 2","criteria":[false,false,true,false]},
+  {"name":"Work","id":3,"criteria":[true,true,true,true]},
+  {"name":"Home","id":4,"criteria":[false,true,true,false]}
 ];
 
 let currentId = DEFAULT_ID;
