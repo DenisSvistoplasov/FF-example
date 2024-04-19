@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Filters</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="fast-filters">
+        <h2 class="fast-filters__title">Fast Filters</h2>
+        <ul class="fast-filters__list">
+          <li class="fast-filters__item">
+            <span class="fast-filters__item-name">Filter test</span>
+            <button class="fast-filters__item-delete">x</button>
+          </li>
+        </ul>
+        <button class="fast-filters__create">New Fast Filter +</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="current">
+        <h2 class="current__title"></h2>
+        <label class="current__name">Filter name <input type="text" class="current__name-input"></label>
+        <label class="criterion">
+          <input type="checkbox" class="criterion__input">
+          <span class="criterion__span">Criterion 1</span></label>
+        <label class="criterion">
+          <input type="checkbox" class="criterion__input">
+          <span class="criterion__span">Criterion 2</span></label>
+        <label class="criterion">
+          <input type="checkbox" class="criterion__input">
+          <span class="criterion__span">Criterion 3</span></label>
+        <label class="criterion">
+          <input type="checkbox" class="criterion__input">
+          <span class="criterion__span">Criterion 4</span></label>
+        <!-- <button class="current__save">Save</button> -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
